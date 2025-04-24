@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* KaTeX dark mode styles */
+.dark .katex {
+  color: #fff;
+}
+
+.dark .katex-display > .katex > .katex-html {
+  color: #fff;
+}
+
+.dark .katex .base {
+  color: #fff;
+}
+
+.dark .katex .mord {
+  color: #fff;
+}
+
+.dark .katex .mbin {
+  color: #fff;
+}
+
+.dark .katex .mrel {
+  color: #fff;
+}
+
+.dark .katex .mopen {
+  color: #fff;
+}
+
+.dark .katex .mclose {
+  color: #fff;
+}
+
+.dark .katex .mpunct {
+  color: #fff;
+}
+
+.dark .katex .minner {
+  color: #fff;
+}

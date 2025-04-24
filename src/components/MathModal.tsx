@@ -66,7 +66,9 @@ const MathModal: React.FC<MathModalProps> = ({
           <div>
             <h4 className="text-lg font-medium text-stone-800 dark:text-stone-100 mb-3">Mathematical Formula</h4>
             <div className="bg-white dark:bg-stone-800 p-4 rounded-lg shadow-inner overflow-x-auto">
-              <BlockMath>{formula}</BlockMath>
+              <div className="dark:text-white">
+                <BlockMath>{formula}</BlockMath>
+              </div>
             </div>
           </div>
 
