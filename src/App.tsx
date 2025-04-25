@@ -96,7 +96,7 @@ function App() {
       <footer className="bg-gradient-to-b from-stone-100 to-stone-50 dark:from-stone-900 dark:to-stone-800 border-t border-stone-200 dark:border-stone-700 mt-12">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-stone-500 dark:text-stone-400 text-sm text-center">
-            Image Binarization Lab
+            Image Binarization Lab 
           </p>
         </div>
       </footer>
